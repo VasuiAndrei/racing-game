@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08dbfa9a-d4aa-49d4-ac7a-66abd58bc06e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AutoVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,10 @@
       <workItem from="1675689150967" duration="3175000" />
       <workItem from="1675808519493" duration="210000" />
       <workItem from="1675962152467" duration="2159000" />
-      <workItem from="1676284162691" duration="5696000" />
+      <workItem from="1676284162691" duration="5874000" />
+      <workItem from="1676308021522" duration="11000" />
+      <workItem from="1676308941492" duration="1124000" />
+      <workItem from="1676368543903" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="deleted comments">
       <created>1675691952082</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676289860819</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="studied inheritance">
+      <created>1676291959466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676291959466</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +140,7 @@
     <MESSAGE value="idea" />
     <MESSAGE value="added Car class; studied variables" />
     <MESSAGE value="Studied has-a relationship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Studied has-a relationship" />
+    <MESSAGE value="studied inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="studied inheritance" />
   </component>
 </project>
