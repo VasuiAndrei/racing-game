@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08dbfa9a-d4aa-49d4-ac7a-66abd58bc06e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Mechanic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +92,8 @@
       <workItem from="1676284162691" duration="5874000" />
       <workItem from="1676308021522" duration="11000" />
       <workItem from="1676308941492" duration="1124000" />
-      <workItem from="1676368543903" duration="2142000" />
+      <workItem from="1676368543903" duration="3192000" />
+      <workItem from="1676395610173" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="deleted comments">
       <created>1675691952082</created>
@@ -134,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676369708730</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="invoking methods">
+      <created>1676383328272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676383328272</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +158,7 @@
     <MESSAGE value="Studied has-a relationship" />
     <MESSAGE value="studied inheritance" />
     <MESSAGE value="declaring methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="declaring methods" />
+    <MESSAGE value="invoking methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="invoking methods" />
   </component>
 </project>
