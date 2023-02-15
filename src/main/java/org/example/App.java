@@ -10,7 +10,7 @@ public class App
         carReference.fuellevel = 60;
         carReference.mileage = 12.5;
         carReference.totalTraveledDistance = 0;
-        carReference.damaged = true;
+        carReference.damaged = false;
         carReference.doorCount = 1;
         carReference.color = "Red";
 
@@ -39,9 +39,9 @@ public class App
 
         Car car2 = new Car();
         car2.name = "Renault";
-        car2.maxSpeed = 250;
+        car2.maxSpeed = 300;
         car2.fuellevel = 70;
-        car2.mileage = 12;
+        car2.mileage = 10;
         car2.totalTraveledDistance = 100;
         car2.damaged = false;
         car2.doorCount = 3;
@@ -60,9 +60,10 @@ public class App
         System.out.println("Door Count: " + car2.doorCount);
         System.out.println("Color: " + car2.color);
 
+        System.out.println("-------------------------------------");
         double distanceForCar1 = carReference.accelerate(60, 1);
 
-        double distanceForCar2 = car2.accelerate(100, 1);
+        double distanceForCar2 = car2.accelerate(130, 1);
 
         System.out.println("Engine name before repair: " + carReference.engine.manufacturer);
         Mechanic mechanic = new Mechanic();
@@ -89,5 +90,13 @@ public class App
 //        car2 = null;
 //
 //        System.out.println(carReference.name);
+
+//        System.out.println("Modulo example: ");
+//        System.out.println(4 % 2);
+//        System.out.println(4 % 3);
+//
+//        if (4 % 2 == 0) {
+//            System.out.println("4 is an even number.");
+//        }
     }
 }
