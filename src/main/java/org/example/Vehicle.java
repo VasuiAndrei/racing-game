@@ -11,6 +11,13 @@ public class Vehicle {
     boolean damaged;
     String color;
 
+//    public Vehicle(String name, double fuellevel, double mileage, double maxSpeed) {
+//        this.name = name;
+//        this.fuellevel = fuellevel;
+//        this.mileage = mileage;
+//        this.maxSpeed = maxSpeed;
+//    }
+
     public double accelerate(double speed, double durationInHours) {
         if (fuellevel <= 0 || damaged) {
             System.out.println("You cannot accelerate.");
