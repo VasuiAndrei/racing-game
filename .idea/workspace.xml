@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08dbfa9a-d4aa-49d4-ac7a-66abd58bc06e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/ScannerUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AutoVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AutoVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="racing-game" />
@@ -74,9 +73,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScannerUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.utils.ScannerUtils" />
+      <module name="racing-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.ScannerUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +109,13 @@
       <workItem from="1676308941492" duration="1124000" />
       <workItem from="1676368543903" duration="3192000" />
       <workItem from="1676395610173" duration="2094000" />
-      <workItem from="1676462666933" duration="4094000" />
+      <workItem from="1676462666933" duration="4244000" />
+      <workItem from="1676501809187" duration="74000" />
+      <workItem from="1676502025976" duration="1226000" />
+      <workItem from="1676503389386" duration="5000" />
+      <workItem from="1676580346739" duration="3569000" />
+      <workItem from="1676587861504" duration="44000" />
+      <workItem from="1676634145820" duration="2585000" />
     </task>
     <task id="LOCAL-00001" summary="deleted comments">
       <created>1675691952082</created>
@@ -161,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676464097785</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Constructor">
+      <created>1676470150127</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676470150127</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +204,7 @@
     <MESSAGE value="invoking methods" />
     <MESSAGE value="added mechanic and method receiving object param" />
     <MESSAGE value="added modulo example" />
-    <option name="LAST_COMMIT_MESSAGE" value="added modulo example" />
+    <MESSAGE value="Constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructor" />
   </component>
 </project>
