@@ -1,5 +1,7 @@
 package org.example;
 
+import java.time.LocalDate;
+
 public class Vehicle {
 
     // class variable (static variable)
@@ -13,6 +15,8 @@ public class Vehicle {
 
     boolean damaged;
     String color;
+
+    LocalDate manufacturingDate = LocalDate.now();
 
     public Vehicle() {
         totalVehicleCount++;

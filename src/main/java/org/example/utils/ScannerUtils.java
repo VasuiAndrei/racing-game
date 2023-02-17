@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class ScannerUtils {
 
-    Scanner scanner = new Scanner(System.in);
+    static final Scanner scanner = new Scanner(System.in);
     
-    public int nextIntAndMoveToNextLine() {
+    public static int nextIntAndMoveToNextLine() {
         int integer = scanner.nextInt();
         scanner.nextLine();
         return integer;
     }
 
-    public String nextLine() {
+    public static String nextLine() {
         return scanner.nextLine();
     }
 
