@@ -2,6 +2,9 @@ package org.example;
 
 public class Vehicle {
 
+    // class variable (static variable)
+    static int totalVehicleCount;
+
     String name;
     double fuellevel;
     double mileage;
@@ -11,7 +14,11 @@ public class Vehicle {
     boolean damaged;
     String color;
 
-//    public Vehicle(String name, double fuellevel, double mileage, double maxSpeed) {
+    public Vehicle() {
+        totalVehicleCount++;
+    }
+
+    //    public Vehicle(String name, double fuellevel, double mileage, double maxSpeed) {
 //        this.name = name;
 //        this.fuellevel = fuellevel;
 //        this.mileage = mileage;
